@@ -15,5 +15,13 @@ EditorBuildSettings:
     path: Assets/Scenes/MonsterBlendShapesV2.unity
     guid: b2c7c693ec47c43c281a1cf4745a8638
   m_configObjects:
+    AR Foundation RemoteARFoundationRemoteLoaderSettings: {fileID: 11400000, guid: 78d9be660f48d4e42b6124d576c9eadf,
+      type: 2}
+    AR Foundation RemoteARFoundationRemoteSessionRecordsData: {fileID: 11400000, guid: 93cc02a93455c4ef48df10bb26ba136b,
+      type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 602949cce6a3b41428f20db8430d5d0b,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 5597de1630a4e400d8ac55e8a3fbfdb6,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a4aa82ca603734ef292cee3fdad0c5bb,
       type: 2}

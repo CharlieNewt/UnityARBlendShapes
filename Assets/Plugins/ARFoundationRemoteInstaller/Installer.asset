@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46a03da0797f1484eace0348c87d6400, type: 3}
   m_Name: Installer
   m_EditorClassIdentifier: 
-  optionalCompanionAppExtension: 
+  installerSettings:
+    optionalCompanionAppExtension: 
+    modifyAppId: 1
+    modifyAppName: 1
+    removeCompanionAppDefineAfterBuild: 1

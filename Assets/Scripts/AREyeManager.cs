@@ -36,8 +36,7 @@ public class AREyeManager : MonoBehaviour
     {
         arFace = GetComponent<ARFace>();
         ARFaceManager arFaceManager = FindObjectOfType<ARFaceManager>();
-
-        if(arFaceManager != null && arFaceManager.subsystem.SubsystemDescriptor.supportsEyeTracking)
+        if(arFaceManager != null && arFaceManager.descriptor.supportsEyeTracking)
         {
             arFace.updated += OnFaceUpdated;
         }

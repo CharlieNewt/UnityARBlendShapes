@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d52beb9dde944381aadb4469b769f3b, type: 3}
   m_Name: Lash Data Right
   m_EditorClassIdentifier: 
-  blink: 0
+  blinkBlendShape:
+    blendShapeLocation: 9
+    value: 0
+  wideBlendShape:
+    blendShapeLocation: 21
+    value: 0

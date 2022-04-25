@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,6 +81,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &3428531388781359
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -102,6 +104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6952346235345154897}
+  - component: {fileID: 1300156546545165412}
   m_Layer: 0
   m_Name: Eyelash Right
   m_TagString: Untagged
@@ -126,6 +129,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1300156546545165412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2695041799158756808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 066023356545f45d2999355ea48f89fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lashData: {fileID: 11400000, guid: 46b0a5adbfe3f40b48773258734e81e7, type: 2}
+  meshRenderer: {fileID: 5929629957324331646}
 --- !u!1 &8143121738796471374
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,6 +199,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -206,6 +224,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &2867196523001478738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -336,6 +355,12 @@ PrefabInstance:
 --- !u!4 &2291505094615704967 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 08bcfd269e55142c4b273fcf22e1472b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1749567930555449964}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &5929629957324331646 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -3887185075125053422, guid: 08bcfd269e55142c4b273fcf22e1472b,
     type: 3}
   m_PrefabInstance: {fileID: 1749567930555449964}
   m_PrefabAsset: {fileID: 0}

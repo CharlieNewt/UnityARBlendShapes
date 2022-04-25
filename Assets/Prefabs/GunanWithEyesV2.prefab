@@ -722,6 +722,7 @@ GameObject:
   - component: {fileID: 8296172668961805733}
   - component: {fileID: 8296172668961805734}
   - component: {fileID: 8656658558822808529}
+  - component: {fileID: 6681155767029694914}
   m_Layer: 0
   m_Name: GunanWithEyesV2
   m_TagString: Untagged
@@ -771,8 +772,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ea5747393b374018b3c095e8211a0be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CoefficientScale: 100
-  m_SkinnedMeshRenderer: {fileID: 0}
+  blendShapeMappings: {fileID: 11400000, guid: 351cd96121f11e444aaa9edd7287bc33, type: 2}
+  skinnedMeshRenderer: {fileID: 1829134542133439524}
 --- !u!114 &8656658558822808529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -793,6 +794,20 @@ MonoBehaviour:
   leftEyeReplacement: {fileID: 0}
   rightEyeReplacement: {fileID: 0}
   eyeUpdateFrequency: 0.1
+--- !u!114 &6681155767029694914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8065441986539114492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55cabf257f4f042edacfba7fe29b63a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lashDataLeft: {fileID: 11400000, guid: 742da68a23a274fa2b77525c9d8b6d1e, type: 2}
+  lashDataRight: {fileID: 11400000, guid: 46b0a5adbfe3f40b48773258734e81e7, type: 2}
 --- !u!1 &8075659907454325383
 GameObject:
   m_ObjectHideFlags: 0

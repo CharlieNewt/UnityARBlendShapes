@@ -7,20 +7,24 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 8_meshes_Merge_Pbr
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Name: LashesMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: a6539ea1b1a974a7ca22e5b0e016aecb,
+    type: 3}
   m_ShaderKeywords: _RECEIVE_SHADOWS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
-  stringTagMap:
-    RenderType: Transparent
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses:
   - SHADOWCASTER
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_BFFD3D2A:
+        m_Texture: {fileID: 2800000, guid: 89c69ece400984111921d18366aa7198, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 082c7e848f7344052aeac4ab0894e2f3, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -78,6 +82,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_B371D183: 0.073
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -85,6 +90,9 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.346
+    - _D1: 0
+    - _D3: 1
+    - _D5: 0
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
